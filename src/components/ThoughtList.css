@@ -1,27 +1,6 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body,
-html {
-    height: 100%;
-}
-
-body {
-    font-family: "Arial", sans-serif;
-}
-
 #root {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    min-width: 30vw;
-    background-color: #b6a5a5;
-    transition: background-color 0.3s ease;
+    min-height: 100vh;
+    height: fit-content;
 }
 
 .light {
@@ -172,7 +151,7 @@ body {
 
 @media (max-width: 1024px) {
     .quote-container {
-        width: 70vw;
+        width: 80vw;
     }
     .quote-text {
         font-size: 1.3rem;
