@@ -23,7 +23,7 @@
     font-size: 19px;
     border-radius: 5px;
     cursor: pointer;
-    color: inherit; /* Ensures it adopts the text color for the current theme */
+    color: inherit; 
     transition: color 0.3s ease;
     text-decoration: none;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
@@ -33,8 +33,6 @@
     background-color: #f2f2f2;
 }
 
-
-/* Position the toggle button in the top left corner */
 .top-left-btn {
     position: fixed;
     top: 20px;
@@ -43,7 +41,7 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: inherit; /* Ensures it adopts the text color for the current theme */
+    color: inherit;
     transition: color 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -140,7 +138,6 @@
     background-color: #3700b3;
 }
 
-/* Dark Theme Button Styles */
 .dark .new-quote-btn{
     background-color: #bb86fc;
 }

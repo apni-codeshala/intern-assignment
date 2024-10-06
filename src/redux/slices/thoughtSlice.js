@@ -30,7 +30,6 @@ const thoughtSlice = createSlice({
             removeThoughtFromLocalStorage(id);
             return state.filter((thought) => thought.id !== id);
         },
-        // New action to rehydrate state from localStorage
         rehydrateThoughts: (state) => {
             const thoughtsFromStorage = JSON.parse(localStorage.getItem("thoughts")) || [];
             return thoughtsFromStorage;

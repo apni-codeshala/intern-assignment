@@ -53,7 +53,6 @@ function App() {
 
   return (
     <div className={`quote-container ${isDarkTheme ? "dark" : "light"}`}>
-      {/* Toggle Theme Button at the top-left corner */}
       <button className="toggle-theme-btn top-left-btn" onClick={toggleTheme}>
         {isDarkTheme ? (
           <span role="img" aria-label="light mode">☀️</span>

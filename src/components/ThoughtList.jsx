@@ -12,7 +12,6 @@ const ThoughtList = () => {
     const selector = useSelector((store) => store.thoughts);
 
     useEffect(() => {
-        // Rehydrate state from localStorage when component mounts
         dispatch(rehydrateThoughts());
     }, [dispatch]);
 
@@ -22,7 +21,6 @@ const ThoughtList = () => {
 
     return (
         <>
-            {/* Toggle Theme Button at the top-left corner */}
             <button className="toggle-theme-btn top-left-btn" onClick={toggleTheme}>
                 {isDarkTheme ? (
                     <span role="img" aria-label="light mode">☀️</span>
